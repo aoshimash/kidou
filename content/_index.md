@@ -1,5 +1,5 @@
 ---
-title: Abount
+title: About
 type: docs
 ---
 
