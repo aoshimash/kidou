@@ -1,0 +1,645 @@
+\documentclass[9pt,fleqn]{bxjsarticle}
+\usepackage{xltxtra}
+\setmainfont{IPAPMincho}
+\setsansfont{IPAPGothic}
+\XeTeXlinebreaklocale "ja"
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bm}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+%\setlength{\mathindent}{0pt}
+\title{\vspace{-2cm}天体と軌道の力学　正誤表　ver 3}
+\author{青島秀治}
+
+\setstretch{0.5}
+
+\begin{document}
+\maketitle
+
+\section*{第2章}
+
+\subsection*{\underline{P.27 (2,28)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} r = \frac{h^2/\mu}{1+\sqrt{1+\left(2Eh^2/\mu^2\right)\cos{\left(\theta-\omega\right)}}} \\
+    &\text{[正]} \hspace{10pt} r = \frac{h^2/\mu}{1+\sqrt{1+\left(2Eh^2/\mu^2\right)}\cos{\left(\theta-\omega\right)}}
+\end{align*}
+
+\subsection*{\underline{P.37 6行目}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} v = \sqrt{x^{*2}+y^{*2}} \\
+    &\text{[正]} \hspace{10pt} v = \sqrt{\dot{x}^{*2}+\dot{y}^{*2}}
+\end{align*}
+
+\subsection*{\underline{P.39 (2.93)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{\partial{r}}{\partial{u}} \cos{f} - r\sin{f}\frac{\partial{f}}{\partial{u}} = a\cos{u} \\
+    &\text{[正]} \hspace{10pt} \frac{\partial{r}}{\partial{u}} \cos{f} - r\sin{f}\frac{\partial{f}}{\partial{u}} = -a\sin{u}
+\end{align*}
+
+\subsection*{\underline{P.39 (2.94)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{\partial{r}}{\partial{u}}\sin{f} + r\cos{f}\frac{\partial{f}}{\partial{u}} = a\eta\sin{u} \\
+    &\text{[正]} \hspace{10pt} \frac{\partial{r}}{\partial{u}}\sin{f} + r\cos{f}\frac{\partial{f}}{\partial{u}} = a\eta\cos{u} 
+\end{align*}
+
+\subsection*{\underline{P.49 動径$r$の逆数}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{a}{r} = \frac{1}{1-e\cos{u}} = 1 + e\cos{u} + e^2\cos{2u} + \mathcal{O}(e^3) \\
+    &\text{[正]} \hspace{10pt} \frac{a}{r} = \frac{1}{1-e\cos{u}} = 1 + e\cos{u} + e^2\cos^2{u} + \mathcal{O}(e^3)
+\end{align*}
+
+\subsection*{\underline{P.50 (2.203)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} f = l + 2e\sin{2l} + \frac{5}{4}e^2\sin{2l} + \mathcal{O}(e^2) \\
+    &\text{[正]} \hspace{10pt} f = l + 2e\sin{2l} + \frac{5}{4}e^2\sin{2l} + \mathcal{O}(e^3) 
+\end{align*}
+
+\subsection*{\underline{P.53 (2.218)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \left\langle\left(\frac{a}{r}\right)^3\cos{f}\right\rangle = \frac{1}{2\pi\eta}\int_{0}^{2\pi}(1+e\cos{f})\cos{f}df = \frac{e}{2\eta^3} \\
+    &\text{[正]} \hspace{10pt} \left\langle\left(\frac{a}{r}\right)^3\cos{f}\right\rangle = \frac{1}{2\pi\eta^3}\int_{0}^{2\pi}(1+e\cos{f})\cos{f}df = \frac{e}{2\eta^3}  
+\end{align*}
+
+\subsection*{\underline{P.57 一番下の式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} x^*+\epsilon_{n+1} = x^* + \epsilon_n - \frac{\epsilon_nf'(x^*)+\frac{\epsilon_n^2}{2}f''(x^*)}{f'(x_n)+\epsilon_nf''(x^*)}  \\
+    &\text{[正]} \hspace{10pt} x^*+\epsilon_{n+1} = x^* + \epsilon_n - \frac{\epsilon_nf'(x^*)+\frac{\epsilon_n^2}{2}f''(x^*)}{f'(x^*)+\epsilon_nf''(x^*)} 
+\end{align*}
+
+
+\section*{第3章}
+
+\subsection*{\underline{P.71 (3.24)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \left\lbrace1-\left(\frac{a_1}{a_2}\cos{\alpha}\right)^2\right\rbrace v_A^2 \geq 2(v_1^2-v_2^2) \\
+    &\text{[正]} \hspace{10pt} \left\lbrace1-\left(\frac{a_1}{a_2}\sin{\alpha}\right)^2\right\rbrace v_A^2 \geq 2(v_1^2-v_2^2)  
+\end{align*}
+
+\subsection*{\underline{P.77 (3.42)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \bm{R} = \frac{\partial}{\partial{\bm{d_2}}}\left(\frac{1}{d_1}-\frac{\bm{d}\cdot\bm{d_2}}{d^3}\right) \equiv \frac{\partial}{\partial{\bm{d_2}}}V \\
+    &\text{[正]} \hspace{10pt} \bm{R} = Gm_1\frac{\partial}{\partial{\bm{d_2}}}\left(\frac{1}{d_1}-\frac{\bm{d}\cdot\bm{d_2}}{d^3}\right) \equiv \frac{\partial}{\partial{\bm{d_2}}}V
+\end{align*}
+
+\subsection*{\underline{P.77 15行目}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} d<<d_2 \text{を満たす。} \\
+    &\text{[正]} \hspace{10pt} d>>d_2 \text{を満たす。}
+\end{align*}
+
+\subsection*{\underline{P.77 (3.45)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{1}{d_1} = \sum_{i=0}^{\infty}\left( \frac{d_2}{d}\right)^iP_i(cos{\theta}) \\
+    &\text{[正]} \hspace{10pt} \frac{1}{d_1} = \frac{1}{d}\sum_{i=0}^{\infty}\left( \frac{d_2}{d}\right)^iP_i(cos{\theta})
+\end{align*}
+
+\subsection*{\underline{P.78 (3.48)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{d_2^2}{d_3}P_2(\cos\theta) = \frac{1}{2d^3}\left(2d_2^2\cos^2\theta-d_2^2\right) \\
+    &\text{[正]} \hspace{10pt} \frac{d_2^2}{d^3}P_2(\cos\theta) = \frac{1}{2d^3}\left(2d_2^2\cos^2\theta-d_2^2\right) 
+\end{align*}
+
+\subsection*{\underline{P.82 (3.57)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{d^2\bm{d_1}}{dt^2} = -G\left(m_1+m_3\right)\frac{\bm{d_1}}{d_1^3} + Gm_2\left(-\frac{\bm{d_2}}{d_1^3}+\frac{\bm{d}}{d^3}\right) \\
+    &\text{[正]} \hspace{10pt} \frac{d^2\bm{d_1}}{dt^2} = -G\left(m_1+m_3\right)\frac{\bm{d_1}}{d_1^3} + Gm_2\left(-\frac{\bm{d_2}}{d_2^3}+\frac{\bm{d}}{d^3}\right)  
+\end{align*}
+
+\subsection*{\underline{P.89 (3.84)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \tilde{E}>0\text{のとき}\hspace{8pt}\tilde{a}=-\frac{Gm_s}{2\tilde{E}}\hspace{5pt}\text{(楕円軌道)} \\
+    &\hspace{24.5pt} \tilde{E}<0\text{のとき}\hspace{8pt}\tilde{a}=\frac{Gm_s}{2\tilde{E}}\hspace{5pt}\text{(双曲線軌道)} \\
+    &\text{[正]} \hspace{10pt} \tilde{E}<0\text{のとき}\hspace{8pt}\tilde{a}=-\frac{Gm_s}{2\tilde{E}}\hspace{5pt}\text{(楕円軌道)} \\
+    &\hspace{24.5pt} \tilde{E}>0\text{のとき}\hspace{8pt}\tilde{a}=\frac{Gm_s}{2\tilde{E}}\hspace{5pt}\text{(双曲線軌道)}
+\end{align*}
+
+
+\section*{第4章}
+
+\subsection*{\underline{P.99 (4.11)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \ddot{\eta} = \ddot{X}\sin{\theta} + \ddot{Y}\cos{\theta} + 2n'\dot{X}\cos{\theta} - 2n'Y\sin{\theta} - n'^2X\cos{\theta} - n'^2Y\cos{\theta} \\
+    &\text{[正]} \hspace{10pt} \ddot{\eta} = \ddot{X}\sin{\theta} + \ddot{Y}\cos{\theta} + 2n'\dot{X}\cos{\theta} - 2n'\dot{Y}\sin{\theta} - n'^2X\sin{\theta} - n'^2Y\cos{\theta} 
+\end{align*}
+
+\subsection*{\underline{P.99 (4.17)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} U = -\left(\frac{m_1}{m_1+m_2}\frac{a'^3}{r_1}+\frac{m_2}{m_1+m_2}\frac{r'^3}{r_2}\right)n'^2 \\
+    &\text{[正]} \hspace{10pt} U = -\left(\frac{m_1}{m_1+m_2}\frac{a'^3}{r_1}+\frac{m_2}{m_1+m_2}\frac{a'^3}{r_2}\right)n'^2 
+\end{align*}
+
+\subsection*{\underline{P.101 (4.29)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{1}{2}\left(\dot{\xi}^2+\dot{\eta}^2+\dot{\zeta}^2\right) - n'\left(\xi\dot{\eta}-\eta\dot{\xi}\right) - \frac{Gm_1}{r_1} - \frac{Gm_2}{r_2} - \frac{Gm_2\bm{d}\cdot\bm{r}}{d^3} = const \\
+    &\text{[正]} \hspace{10pt} \frac{1}{2}\left(\dot{\xi}^2+\dot{\eta}^2+\dot{\zeta}^2\right) - n'\left(\xi\dot{\eta}-\eta\dot{\xi}\right) - \frac{Gm_1}{r_1} - \frac{Gm_2}{r_2} + \frac{Gm_2\bm{d}\cdot\bm{r}}{d^3} = const 
+\end{align*}
+
+\subsection*{\underline{P.102 (4.32)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{a'}{2a} + \sqrt{\left(1+\frac{m_2}{m_1}\right)\frac{a}{a'}\left(1-e^2\right)}\cos{I} = -\frac{m_2}{m_1}\left(\frac{a'}{r_2}-\frac{a\bm{d}\cdot\bm{r}}{d^3}\right) + const \\
+    &\text{[正]} \hspace{10pt} \frac{a'}{2a} + \sqrt{\left(1+\frac{m_2}{m_1}\right)\frac{a}{a'}\left(1-e^2\right)}\cos{I} = -\frac{m_2}{m_1}\left(\frac{a'}{r_2}-\frac{a'\bm{d}\cdot\bm{r}}{d^3}\right) + const  
+\end{align*}
+
+\subsection*{\underline{P.102 下から7行目行頭}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} I_3\text{とするとき、} \\
+    &\text{[正]} \hspace{10pt} I_2\text{とするとき、}
+\end{align*}
+
+\subsection*{\underline{P.105 図4.2}}
+図の距離感がおかしいので見難い。
+ノートに描き直しあり。
+
+\subsection*{\underline{P.108 8行目}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} c) \,\,\, X<-\nu\left(P_2\text{より左の領域}\right):L_3 \\
+    &\text{[正]} \hspace{10pt} c) \,\,\,X<-\nu\left(P_1\text{より左の領域}\right):L_3 
+\end{align*}
+
+\subsection*{\underline{P.111 図4.3}}
+規格化の方法に関する記述はないが、自分のノートに書いてあるとおり$n'a'=1$という規格化をすると次のような結果になる。
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} (b) C=1.9823, (d) C=1.8562, (f) C=1.6787 \\
+    &\text{[正]} \hspace{10pt} (b) C=1.9023, (d) C=1.7761, (f) C=1.5985 
+\end{align*}
+
+\subsection*{\underline{P.112 下から3行目}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} F\text{点は左へ移り}L_1\text{点で一致する} \\
+    &\text{[正]} \hspace{10pt} F\text{点は左へ移り}L_2\text{点で一致する}
+\end{align*}
+
+\subsection*{\underline{P.115 (4.90)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \lambda^4 + \left(4+a+c\right)\lambda^2 + ac - b^2 = 0 \\
+    &\text{[正]} \hspace{10pt} \lambda^4 + \left(4n'^2+a+c\right)\lambda^2 + ac - b^2 = 0 
+\end{align*}
+
+\subsection*{\underline{P.115 (4.91)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \sigma^2 + \left(4+a+c\right)\sigma + ac - b^2 = 0 \\
+    &\text{[正]} \hspace{10pt} \sigma^2 + \left(4n'^2+a+c\right)\sigma + ac - b^2 = 0 
+\end{align*}
+
+\subsection*{\underline{P.116 下から2行目}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \text{方程式}(4.90)\text{へ代入すると} \\
+    &\text{[正]} \hspace{10pt} \text{方程式}(4.91)\text{へ代入すると} 
+\end{align*}
+
+\subsection*{\underline{P.117 4.6.2小節全体}}
+$a'=1,\,G=1,\,m_1+m_2=1$で規格化されているが、それについて説明がない。
+
+\subsection*{\underline{P.119-120 4.7節全体}}
+$a'=1,\,G=1,\,m_1+m_2=1,n'=1$で規格化されているが、それについて説明がない。
+
+\subsection*{\underline{P.119 下から1-2行目}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} X=r'\tilde{X},Y=r'\tilde{Y} \\
+    &\text{[正]}\,\,\,\,\,\, X=r'\tilde{X},Y=r'\tilde{Y},Z=r'\tilde{Z} 
+\end{align*}
+
+\subsection*{\underline{P.124 (4.133)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} a^* = \frac{1}{2}(a+c) + \frac{1}{2}\cos2\alpha + b\sin\alpha \\
+    &\text{[正]} \hspace{10pt} a^* = \frac{1}{2}(a+c) + \frac{1}{2}(a-c)\cos2\alpha + b\sin\alpha
+\end{align*}
+
+\subsection*{\underline{P.124 (4.139)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} a^* = \frac{1}{2}(a+b-\sqrt{D^*}) = -\frac{3}{2}(1-\sqrt{1-3\nu(1-\nu)})n'^2 < 0 \\
+    &\text{[正]} \hspace{10pt} a^* = \frac{1}{2}(a+c+\sqrt{D^*}) = -\frac{3}{2}(1-\sqrt{1-3\nu(1-\nu)})n'^2 < 0 
+\end{align*}
+
+\subsection*{\underline{P.124 (4.140)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} c^* = \frac{1}{2}(a+b+\sqrt{D^*}) = -\frac{3}{2}(1+\sqrt{1-3\nu(1-\nu)})n'^2 < 0 \\
+    &\text{[正]} \hspace{10pt} c^* = \frac{1}{2}(a+c-\sqrt{D^*}) = -\frac{3}{2}(1+\sqrt{1-3\nu(1-\nu)})n'^2 < 0 
+\end{align*}
+
+\subsection*{\underline{P.125 (4.145)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \ddot{x} - 2n'\dot{y^*} + a^*x^* = 0 \\
+    &\text{[正]} \hspace{10pt} \ddot{x^*} - 2n'\dot{y^*} + a^*x^* = 0 
+\end{align*}
+
+
+\section*{第5章}
+
+\subsection*{\underline{P.137 (5.12)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{1}{2}\dot{x}^2 + \frac{1}{2}\omega_0^2 + \frac{1}{3}{\epsilon}x^3 = E \\
+    &\text{[正]} \hspace{10pt} \frac{1}{2}\dot{x}^2 + \frac{1}{2}\omega_0^2x^2 + \frac{1}{3}{\epsilon}x^3 = E 
+\end{align*}
+
+\subsection*{\underline{P.137 (5.13)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{1}{2}\omega_0^2 + \frac{1}{3}{\epsilon}x^3 \leq E \\
+    &\text{[正]} \hspace{10pt} \frac{1}{2}\omega_0^2x^2 + \frac{1}{3}{\epsilon}x^3 \leq E 
+\end{align*}
+
+\subsection*{\underline{P.139 (5.29)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} x = a\cos{t} + {\epsilon}a^2\left(-\frac{1}{2}+\frac{1}{6}\cos{2t}\right) + \epsilon^2a^3\left(\frac{5}{12}t\sin{t}+\frac{1}{48}\cos{3t}+\mathcal{O}(\epsilon^3)\right) \\
+    &\text{[正]} \hspace{10pt} x = a\cos{t} + {\epsilon}a^2\left(-\frac{1}{2}+\frac{1}{6}\cos{2t}\right) + \epsilon^2a^3\left(\frac{5}{12}t\sin{t}+\frac{1}{48}\cos{3t}\right) + \mathcal{O}(\epsilon^3)  
+\end{align*}
+
+\subsection*{\underline{P.143 (5.68)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{da}{dt}\sin{\theta} - a\frac{d\phi}{dt}\cos{\theta} = {\epsilon}a^2\cos^2{\theta} \\
+    &\text{[正]} \hspace{10pt} \frac{da}{dt}\sin{\theta} + a\frac{d\phi}{dt}\cos{\theta} = {\epsilon}a^2\cos^2{\theta} 
+\end{align*}
+
+\subsection*{\underline{P.144 (5.75)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{d\phi_1}{dt} = \frac{1}{4}\left(2\cos{\theta_0}+\cos{3\theta_0}\right) \\
+    &\text{[正]} \hspace{10pt} \frac{d\phi_1}{dt} = \frac{1}{4}a_0\left(3\cos{\theta_0}+\cos{3\theta_0}\right) 
+\end{align*}
+
+\subsection*{\underline{P.144 下から4行目}}
+$\phi_0$が定数であれば、この後の一般解を導出することはできるが、テキストではさらに$\phi_0=0$の条件を導入して、計算を簡略化している。しかし、それについての説明がない。\\\\
+
+\subsection*{\underline{P.145 (5.86)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} x = \left(a_0+{\epsilon}a_1+\epsilon^2a_2\right)\left(\theta^*+\epsilon\phi_1+\epsilon^2\phi_{2p}\right) \\
+    &\text{[正]} \hspace{10pt} x = \left(a_0+{\epsilon}a_1+\epsilon^2a_2\right)\cos{\left(\theta^*+\epsilon\phi_1+\epsilon^2\phi_{2p}\right)}
+\end{align*}
+
+\subsection*{\underline{P.147 7行目}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} - {\partial}g_1/{\partial}c_l, {\partial}g_2/{\partial}c_l, -{\partial}g_3/{\partial}c_l \\
+    &\text{[正]} \hspace{10pt} - {\partial}g_1/{\partial}c_l, -{\partial}g_2/{\partial}c_l, -{\partial}g_3/{\partial}c_l 
+\end{align*}
+
+\subsection*{\underline{P.148 (5.102)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{dq_i}{dt} = \frac{{\partial}F}{{\partial}p_i} = p + \frac{{\partial}V}{{\partial}p_i} \\
+    &\text{[正]} \hspace{10pt} \frac{dq_i}{dt} = \frac{{\partial}F}{{\partial}p_i} = p_i + \frac{{\partial}V}{{\partial}p_i} 
+\end{align*}
+
+\subsection*{\underline{P.148 (5.108)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \sum_{j=1}^{6}\frac{{\partial}f_i}{{\partial}c_j}\frac{dc_j}{dt} = \frac{{\partial}V}{{\partial}p_1} \\
+    &\text{[正]} \hspace{10pt} \sum_{j=1}^{6}\frac{{\partial}f_i}{{\partial}c_j}\frac{dc_j}{dt} = \frac{{\partial}V}{{\partial}p_i} 
+\end{align*}
+
+\subsection*{\underline{P.154 6行目}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \text{ここで}t=0\text{における軌道要素が}c_j(0)\text{となる軌道}x_i^*(t)\text{を考え、} \\
+    &\text{[正]} \hspace{10pt} \text{ここで軌道要素が}c_j(0)\text{の値のまま変化しない軌道}x_i^*(t)\text{を考え、} 
+\end{align*}
+
+\subsection*{\underline{P.156 (5.166)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{de}{dt} = -\frac{\eta}{na^2e}\left(1-\eta\right)\frac{{\partial}R}{\partial\epsilon} - \frac{\eta}{na^2e}\frac{{\partial}R}{\partial\omega} \\
+    &\text{[正]} \hspace{10pt} \frac{de}{dt} = -\frac{\eta}{na^2e}\left(1-\eta\right)\frac{{\partial}R}{\partial\epsilon} - \frac{\eta}{na^2e}\frac{{\partial}R}{\partial\tilde{\omega}} 
+\end{align*}
+
+\subsection*{\underline{P.158 (5.180)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{\partial{R}}{\partial\tilde{\omega}} = p\frac{\partial{R}}{\partial{q}} - q\frac{\partial{R}}{\partial{q}} \\
+    &\text{[正]} \hspace{10pt} \frac{\partial{R}}{\partial\tilde{\omega}} = q\frac{\partial{R}}{\partial{p}} - p\frac{\partial{R}}{\partial{q}}
+\end{align*}
+
+\subsection*{\underline{P.169 図5.4}}
+$d\beta$に注意。テキストの図では軌道と軌道の角度が$d\beta$のようにみえるが、軌道面と軌道面の角度が$d\beta$である。
+
+\subsection*{\underline{P.169 (5.244)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} -d\omega = N'H = \cos{I}d\Omega \\
+    &\text{[正]} \hspace{10pt} -d\omega = NH = \cos{I}d\Omega 
+\end{align*}
+正確にはノートのように単位球面に写して考えるべき
+
+\subsection*{\underline{P.172 (13-17行目)}}
+$\rho$についての説明が間違い。
+方程式の右辺が正弦級数となるのは$a,e,I$、余弦級数となるのは$\rho,\tilde{\omega},\Omega,\epsilon$ 。
+もちろん、これに応じて各軌道要素の１次の解が余弦級数となるのは、$a,e,I$。正弦級数となるのは、$\rho,\tilde{\omega},\Omega,\epsilon$ 。\\\\
+
+\subsection*{\underline{P.172 下から6行目}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} j_1 = j_2 = 0 \\
+    &\text{[正]} \hspace{10pt} j_1 = {j_1}' = 0 
+\end{align*}
+
+\subsection*{\underline{P.172-173 (5.264),(5.266),(5.267),(5.268),(5.270)式}\\ \underline{P.176 1行目}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} j_4\\
+    &\text{[正]} \hspace{10pt} {j_1}'
+\end{align*}
+
+\subsection*{\underline{P.173 (5.265)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{da}{dt} = -\frac{2}{n_0a_0}j_1C_p\sin{\theta_p}\\
+    &\text{[正]} \hspace{10pt} \frac{da}{dt} = -\frac{2}{n_0a_0}\sum_{j_1\neq0,{j_1}'\neq0}j_1C_p\sin{\theta_p} 
+\end{align*}
+
+
+\section*{第6章}
+
+\subsection*{\underline{P.184 3行目}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} dl = (a/r)^2/{\eta}df　\\
+    &\text{[正]} \hspace{10pt} dl = \frac{r^2}{a^2\eta}df 
+\end{align*}
+
+\subsection*{\underline{P.185 (6.16)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{d\Omega}{dt} = -\frac{1}{na^2\eta\sin{I}}\frac{\partial{R_s}}{\partial{I}} \\
+    &\text{[正]} \hspace{10pt} \frac{d\Omega}{dt} = \frac{1}{na^2\eta\sin{I}}\frac{\partial{R_s}}{\partial{I}} 
+\end{align*}
+
+\subsection*{\underline{P.187 (6.22)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} R_{p2} = \frac{\eta{a_E}^2}{a_3}J_2C_2P_2 \\
+    &\text{[正]} \hspace{10pt} R_{p2} = \frac{\eta{a_E}^2}{a^3}J_2C_2P_2  
+\end{align*}
+
+\subsection*{\underline{P.188 (6.30)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{d\sigma}{dt} = -\mu{a_E}^2J_2C_1\left[\frac{\eta^2}{na^5e}C_1\int\frac{\partial{P_1}}{\partial{e}}dt
+    + \frac{2}{na}\frac{\partial}{\partial{a}}\left(\frac{1}{a^3}\right){\int}P_1dt\right] \\
+    &\text{[誤]} \hspace{10pt} \varDelta_1\sigma = -\mu{a_E}^2J_2C_1\left[\frac{\eta^2}{na^5e}{\int}\frac{\partial{P_1}}{\partial{e}}dt
+    + \frac{2}{na}\frac{\partial}{\partial{a}}\left(\frac{1}{a^3}\right){\int}P_1dt\right] 
+\end{align*}
+
+\subsection*{\underline{P.188 (6.31)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{d\omega}{dt} = \frac{\mu{a_E}^2}{a^3}J_2\left(-\frac{\cos{i}}{na^2\eta\sin{I}}\frac{\partial{C_1}}{\partial{I}}{\int}P_1dt + \frac{\eta}{na^2e}C_1\int\frac{\partial{P_1}}{\partial{e}}dt\right) \\
+    &\text{[正]} \hspace{10pt} \varDelta_1\omega = \frac{\mu{a_E}^2}{a^3}J_2\left(-\frac{\cos{I}}{na^2\eta\sin{I}}\frac{\partial{C_1}}{\partial{I}}{\int}P_1dt + \frac{\eta}{na^2e}C_1\int\frac{\partial{P_1}}{\partial{e}}dt\right)
+\end{align*}
+
+\subsection*{\underline{P.188 (6.32)式}}
+\begin{align*}
+&\text{[誤]} \hspace{10pt} \frac{d\Omega}{dt} = \frac{\mu{a_E}^2}{na^5\eta\sin{I}}\frac{\partial{C_1}}{\partial{I}}{\int}P_1dt \\
+&\text{[正]} \hspace{10pt} \varDelta_1\Omega = \frac{\mu{a_E}^2}{na^5\eta\sin{I}}J_2\frac{\partial{C_1}}{\partial{I}}{\int}P_1dt 
+\end{align*}
+
+\subsection*{\underline{P.188 下から4行目}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \partial{P}/\partial{e}\\
+    &\text{[正]} \hspace{10pt} \partial{P_1}/\partial{e} 
+\end{align*}
+
+\subsection*{\underline{P.188 (6.33)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{\partial{P_1}}{\partial{e}} = 3\left[\left(\frac{a}{r}\right)^3\cos{f}-\frac{e}{\eta^5}\right] \\
+    &\text{[正]} \hspace{10pt} \frac{\partial{P_1}}{\partial{e}} = 3\left[\left(\frac{a}{r}\right)^4\cos{f}-\frac{e}{\eta^5}\right] 
+\end{align*}
+
+\subsection*{\underline{P.189 (6.34)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{1}{n\eta}{\int}\frac{r}{a}df \\
+    &\text{[正]} \hspace{10pt} \frac{1}{n\eta}{\int}\frac{a}{r}df  
+\end{align*}
+
+\subsection*{\underline{P.189 (6.38)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} {\int}\frac{\partial{P_1}}{\partial{e}} \\
+    &\text{[正]} \hspace{10pt} {\int}\frac{\partial{P_1}}{\partial{e}}dt 
+\end{align*}
+
+\subsection*{\underline{P.189 (6.40)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \varDelta_1\Omega = -\frac{3}{2}J_2\left(\frac{a_E}{a\eta^2}\right)^2B\cos{I} \\
+    &\text{[正]} \hspace{10pt} \varDelta_1\Omega = -\frac{3}{2}J_2\left(\frac{a_E}{p}\right)^2B\cos{I}
+\end{align*}
+間違いではないが、この形の方が自然。
+
+\subsection*{\underline{P.189 (6.42)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \varDelta_1\sigma = -n^2a^3{a_E}^2J_2\left[\frac{\eta^2}{na^5e}C_1\frac{3}{n\eta^5}\left(eB+Q\right)-\frac{6}{na^5}\frac{B}{n\eta^3}\right] \\
+    &\text{[正]} \hspace{10pt} \varDelta_1\sigma = -n^2a^3{a_E}^2J_2\left[\frac{\eta^2}{na^5e}\frac{3}{n\eta^5}\left(eB+Q\right)-\frac{6}{na^5}\frac{B}{n\eta^3}\right]
+\end{align*}
+
+\subsection*{\underline{P.192 (6.60)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \omega^* = \left[\frac{3}{4}J_2\left(\frac{a_E}{p_0}\right)^2\left(5\cos^2{I}-1\right)\right]n_0t + \omega_0 \\
+    &\text{[正]} \hspace{10pt} \omega^* = \left[\frac{3}{4}J_2\left(\frac{a_E}{p_0}\right)^2\left(5\cos^2{I_0}-1\right)\right]n_0t + \omega_0 
+\end{align*}
+
+\subsection*{\underline{P.192 (6.61)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \Omega^* = -\left[\frac{3}{2}J_2\left(\frac{a_E}{p_0}\right)^2\cos{I}\right]n_0t + \Omega_0 \\
+    &\text{[正]} \hspace{10pt} \Omega^* = -\left[\frac{3}{2}J_2\left(\frac{a_E}{p_0}\right)^2\cos{I_0}\right]n_0t + \Omega_0 
+\end{align*}
+
+\subsection*{\underline{P.197 (6.81)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \ddot{y} = -\frac{\mu}{r^3}x - \frac{3}{2}J_2\frac{{a_E}^2}{r^5}y \\
+    &\text{[正]} \hspace{10pt} \ddot{y} = -\frac{\mu}{r^3}y - \frac{3}{2}J_2\frac{{a_E}^2}{r^5}y 
+\end{align*}
+
+\subsection*{\underline{P.197 (6.83)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} R_3 = -\frac{\mu{a_E}^3}{r^4}J_3P_3\left(\sin{\phi}\right)
+    = -\frac{\mu{a_E}^3}{2r^4}J_3\sin{\phi}\left(5\sin^2{\phi}-3\right) \\
+    &\text{[正]} \hspace{10pt} R_3 = -\frac{\mu{a_E}^3}{r^4}J_3P_3\left(\sin{\varphi}\right)
+    = -\frac{\mu{a_E}^3}{2r^4}J_3\sin{\varphi}\left(5\sin^2{\varphi}-3\right) 
+\end{align*}
+
+\subsection*{\underline{P.197 (6.84)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} R_3 = \frac{\mu{a_E}^3}{2r^4}J_3\left[\frac{3}{8}\sin{I}\left(5\cos^2{I}-1\right)\sin{\left(f+\omega\right)} + \frac{1}{8}\sin{3\left(f+\omega\right)}\right] \\
+    &\text{[正]} \hspace{10pt} R_3 = \frac{\mu{a_E}^3}{r^4}J_3\left[\frac{3}{8}\sin{I}\left(5\cos^2{I}-1\right)\sin{\left(f+\omega\right)} + \frac{5}{8}\sin^3{I}\sin{3\left(f+\omega\right)}\right] 
+\end{align*}
+
+\subsection*{\underline{P.198 (6.85)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} R_{3s} = \frac{1}{2\pi}{\int}R_3dl=P(a,e,I)e\sin{\omega} \\
+    &\text{[正]} \hspace{10pt} R_{3s} = \frac{1}{2\pi}{\int}R_3dl=P(a,e,I)\sin{\omega} 
+\end{align*}
+
+\subsection*{\underline{P.198 (6.86)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} P(a,e,I) = \frac{3}{8}\frac{\mu{a_E}^3}{a^4\eta^5}J_3\sin{I}(5\cos^2I-1) \\
+    &\text{[正]} \hspace{10pt} P(a,e,I) = \frac{3}{8}\frac{\mu{a_E}^3}{a^4\eta^5}J_3e\sin{I}(5\cos^2I-1)
+\end{align*}
+
+\subsection*{\underline{P.198 (6.88)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{dI}{dt} = \frac{3}{8}\frac{\mu{a_E}^3}{na^6\eta^4}J_3e\cos{I}\left(5\cos^2{I}-1\right)\cos{\omega} \\
+    &\text{[正]} \hspace{10pt} \frac{dI}{dt} = \frac{3}{8}\frac{\mu{a_E}^3}{na^6\eta^6}J_3e\cos{I}\left(5\cos^2{I}-1\right)\cos{\omega}
+\end{align*}
+
+\subsection*{\underline{P.199 1行目}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} 式定式(6.89)\\
+    &\text{[正]} \hspace{10pt} 方程式(6.87) 
+\end{align*}
+
+\subsection*{\underline{P.200 (6.100)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{\partial{n}_2}{\partial{e}} = 3J_2\frac{en}{a^2\eta^6}\left(5\cos^2{I}-1\right) \\
+    &\text{[正]} \hspace{10pt} \frac{\partial{n}_2}{\partial{e}} = 3J_2\frac{a_E^2en}{a^2\eta^6}\left(5\cos^2{I}-1\right) 
+\end{align*}
+
+\subsection*{\underline{P.200 (6.101)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{\partial{n}_2}{\partial{I}} = -\frac{15}{2}J_2\frac{n\sin{I}\cos{I}}{a^2\eta^4} \\
+    &\text{[正]} \hspace{10pt} \frac{\partial{n}_2}{\partial{I}} = -\frac{15}{2}J_2\frac{a_E^2n\sin{I}\cos{I}}{a^2\eta^4}
+\end{align*}
+
+\subsection*{\underline{P.200 (6.102)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{\partial{P}}{\partial{e}} = \frac{3}{8}J_3\frac{n^2}{a\eta^7}\left(1+4e^2\right)\sin{I}\left(5\cos^2{I}-1\right) \\
+    &\text{[正]} \hspace{10pt} \frac{\partial{P}}{\partial{e}} = \frac{3}{8}J_3\frac{a_E^3n^2}{a\eta^7}\left(1+4e^2\right)\sin{I}\left(5\cos^2{I}-1\right)
+\end{align*}
+
+\subsection*{\underline{P.200 (6.103)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{\partial{P}}{\partial{I}} = \frac{3}{8}J_3\frac{n^2}{a\eta^5}\cos{I}\left(15\cos^2{I}-11\right) \\
+    &\text{[正]} \hspace{10pt} \frac{\partial{P}}{\partial{I}} = \frac{3}{8}J_3\frac{a_E^3en^2}{a\eta^5}\cos{I}\left(15\cos^2{I}-11\right)
+\end{align*}
+
+\subsection*{\underline{P.200 (6.104)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{d\delta\omega}{dt} = \frac{3}{8}J_3\frac{n_0}{a_0^3\eta_0^6}\frac{\left(5\cos^2{I_0}-1\right)\left(\sin^2{I_0}-e_0^2\cos^2{I_0}\right)}{e_0\sin{I_0}}\sin{\omega^*} \\
+    &\text{[正]} \hspace{10pt} \frac{d\delta\omega}{dt} = \frac{3}{8}J_3\frac{a_E^3n_0}{a_0^3\eta_0^6}\frac{\left(5\cos^2{I_0}-1\right)\left(\sin^2{I_0}-e_0^2\cos^2{I_0}\right)}{e_0\sin{I_0}}\sin{\omega^*}
+\end{align*}
+
+\subsection*{\underline{P.201 (6.113)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \delta(l+\omega) = \frac{J_3a_E}{2J_2p_0}\left(\frac{1+\eta_0+\eta^2}{1+\eta_0}\sin{I_0}+\frac{\cos^2{I_0}}{\sin{I_0}}\right)e_0\cos{\omega^*} \\
+    &\text{[正]} \hspace{10pt} \delta(l+\omega) = \frac{J_3a_E}{2J_2p_0}\left(-\frac{1+\eta_0+\eta_0^2}{1+\eta_0}\sin{I_0}+\frac{\cos^2{I_0}}{\sin{I_0}}\right)e_0\cos{\omega^*} 
+\end{align*}
+
+\subsection*{\underline{P.202 $P_\omega$の式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} P_\omega = 5.233{\times}10^6\text{秒} \\
+    &\text{[正]} \hspace{10pt} P_\omega = 5.233{\times}10^7\text{秒}
+\end{align*}
+
+\subsection*{\underline{P.206 (6.131)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{1}{2\pi}\int_{0}^{2\pi}R_Sd\lambda_S = \frac{Gm_s}{a_s^3}\left[\frac{1}{8}\left(3\cos^2\bar{I}-1\right)+\frac{3}{8}\sin^2\bar{I}\cos{2\bar{L}}\right] \\
+    &\text{[正]} \hspace{10pt} \frac{1}{2\pi}\int_{0}^{2\pi}R_Sd\lambda_S = \frac{Gm_sr^2}{a_s^3}\left[\frac{1}{8}\left(3\cos^2\bar{I}-1\right)+\frac{3}{8}\sin^2\bar{I}\cos{2\bar{L}}\right]
+\end{align*}
+
+\subsection*{\underline{P.207 (6.132),(6.133)式の後ろへ追加}}
+\begin{align*}
+    \frac{1}{2\pi}\int_{0}^{2\pi}\left(\frac{r}{a}\right)^2\sin{2f}dl = 0 
+\end{align*}
+
+\subsection*{\underline{P.207 (6.134)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} R_{S,sec} = \frac{Gm_s}{a_s^3}\left[\frac{1}{8}\left(1+\frac{3}{2}e^2\right)\left(3\cos^2\bar{I}-1\right) + \frac{15}{16}e^2\sin^2\bar{I}\cos{2\bar{\omega}}\right] \\
+    &\text{[正]} \hspace{10pt} R_{S,sec} = \frac{Gm_sa^2}{a_s^3}\left[\frac{1}{8}\left(1+\frac{3}{2}e^2\right)\left(3\cos^2\bar{I}-1\right) + \frac{15}{16}e^2\sin^2\bar{I}\cos{2\bar{\omega}}\right]
+\end{align*}
+
+\subsection*{\underline{P.208 (6.141)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} C = \frac{3}{16}\alpha\sin^2{\epsilon^2} \\
+    &\text{[正]} \hspace{10pt} C = \frac{3}{16}\alpha\sin^2{\epsilon} 
+\end{align*}
+
+\subsection*{\underline{P.208 (6.145)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} R_{SEC} = n^2a^3\left[-(3A-C)q^2-(3A+C)p^2+2Bq\right] \\
+    &\text{[正]} \hspace{10pt} R_{SEC} = n^2a^3\left[-(3A-C)q^2-(3A+C)p^2+2Bq+2A\right] 
+\end{align*}
+少し自信ない
+
+\subsection*{\underline{P.208 (6.150)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} p = -c\sqrt{\frac{1+C/3A}{1-C/3A}}\sin{({\rho}t+\gamma)} \\
+    &\text{[正]} \hspace{10pt} p = -c\sqrt{\frac{1-C/3A}{1+C/3A}}\sin{({\rho}t+\gamma)} 
+\end{align*}
+
+\subsection*{\underline{P.210 (6.150)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} R = \frac{\mu}{r}\sum_{n=2}^{\infty}\sum_{m=1}^{n}P_n^m(\sin\varphi)(C_{n,m}\cos{m\psi}+S_{n,m}\sin{m\psi}) \\
+    &\text{[正]} \hspace{10pt} R = \frac{\mu}{r}\sum_{n=2}^{\infty}\sum_{m=1}^{n}\left(\frac{a_E}{r}\right)^nP_n^m(\sin\varphi)(C_{n,m}\cos{m\psi}+S_{n,m}\sin{m\psi})
+\end{align*}
+
+\subsection*{\underline{P.212 (6.162)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \beta = tan^{-1}\left(\frac{S_{2,2}}{C_{2,2}}\right) = 29.4^° \\
+    &\text{[正]} \hspace{10pt} \beta = tan^{-1}\left(-\frac{S_{2,2}}{C_{2,2}}\right) = 29.4^° 
+\end{align*}
+
+\subsection*{\underline{P.212 下から1行目}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} 0 < \psi + \beta/2 < \pi/2 \\
+    &\text{[正]} \hspace{10pt} 0 < \psi + \beta/2 < \pi 
+\end{align*}
+
+\subsection*{\underline{P.213 (6.169)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} |\chi|\leq\alpha \\
+    &\text{[正]} \hspace{10pt} |\chi|<\alpha 
+\end{align*}
+
+\subsection*{\underline{P.215 (6.176)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \sin^2I = q^2 + p^2 = 4g^2\sin^2{\rho}t \\
+    &\text{[正]} \hspace{10pt} \sin^2I = q^2 + p^2 = 2g^2(1-\cos{{\rho}t}) \sim (g{\rho}t)^2 
+\end{align*}
+
+\subsection*{\underline{P.215 (6.177)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \sin{I} = 2g\sin{{\rho}t} \\
+    &\text{[正]} \hspace{10pt} \sin{I} = g{\rho}t
+\end{align*}
+
+\subsection*{\underline{P.215 (6.178)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} I \sim 2g\sin{{\rho}t} \sim 2g{\rho}t = 6.653\times10^{-6}nt = (2^°.40\times10^{-3}/\text{日})t \\
+    &\text{[正]} \hspace{10pt} I \sim g{\rho}t = 6.653\times10^{-6}nt = (2^°.40\times10^{-3}/\text{日})t 
+\end{align*}
+
+\subsection*{\underline{P.219 1行目}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \text{式(6.190)へ代入} \\
+    &\text{[正]} \hspace{10pt} \text{式(6.191)へ代入}
+\end{align*}
+
+\subsection*{\underline{P.219 3行目}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{365.22}{2\times17}\times0.12 = 1.3 m/s \\
+    &\text{[正]} \hspace{10pt} \frac{365.25}{2\times17}\times0.12 = 1.3 m/s 
+\end{align*}
+
+
+\section*{付録}
+
+\subsection*{\underline{P.221 下から2行目}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \text{直行行列} \\
+    &\text{[正]} \hspace{10pt} \text{直交行列}  
+\end{align*}
+
+\subsection*{\underline{P.222 (A.11)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} [\sigma,\Omega] = \left(\frac{\partial\bm{\gamma}^*}{\partial\sigma}\right)^t B_1\dot{\bm{r}}-{\bm{r}^*}^tB_1^t\frac{\partial\dot{\bm{r}}^*}{\partial\sigma} \\
+    &\text{[正]} \hspace{10pt} [\sigma,\Omega] = \left(\frac{\partial\bm{r}^*}{\partial\sigma}\right)^t B_1\dot{\bm{r}}-{\bm{r}^*}^tB_1^t\frac{\partial\dot{\bm{r}}^*}{\partial\sigma}
+\end{align*}
+
+\subsection*{\underline{P.225 下から4行目}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \text{単位をベクトルを}\bm{i}^*　\\
+    &\text{[正]} \hspace{10pt} \text{単位ベクトルを}\bm{i}^* 
+\end{align*}
+
+\subsection*{\underline{P.231 (B.47)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{(\bm{r}\times \dot{\bm{r}}) \times \bm{r}}{\bm{r}^3} \\
+    &\text{[正]} \hspace{10pt} \frac{(\bm{r}\times \dot{\bm{r}}) \times \bm{r}}{r^3} 
+\end{align*}
+
+\subsection*{\underline{P.231 (B.50)式}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{de}{dt} = \frac{\mu}{na}\left[R\sin{f}+S(\cos{f}+\cos{u})\right] \\
+    &\text{[正]} \hspace{10pt} \frac{de}{dt} = \frac{\eta}{na}\left[R\sin{f}+S(\cos{f}+\cos{u})\right] 
+\end{align*}
+
+\subsection*{\underline{P231 4式目}}
+\begin{align*}
+    &\text{[誤]} \hspace{10pt} \frac{\partial{r}}{\partial{a}} = \frac{r}{a} + \frac{ae}{\eta}\sin{f}\frac{dn}{dt}t \\
+    &\text{[正]} \hspace{10pt} \frac{\partial{r}}{\partial{a}} = \frac{r}{a} + \frac{ae}{\eta}\sin{f}\frac{dn}{da}t 
+\end{align*}
+
+
+\end{document}
